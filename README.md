@@ -6,15 +6,15 @@
 
 #html代码
 
-```
-'<table class="table table-bordered table-hover table-striped" id="table1"></table>'
-```
+
+	<table class="table table-bordered table-hover table-striped" id="table1"></table>
+
 
 #js代码
 
     var option={
 	table:"table1",
-	head:{id:"ID",meetingName:"年会名称",meetingTag:"标签",createTime:"创建时间",convertFile:"转换进度",fileCount:"预览地址","null":"操作"},
+	head:{id:"ID",meetingName:"年会名称",meetingTag:"标签",createTime:"创建时间",convertFile:"转换进度",fileCount:"预览地址","null":"操作"}，
 	url:app.base+'/listmeeting',
 	column:{
 		3:function(data){
@@ -51,4 +51,7 @@
 		table1.getData();
 	}
 
+效果图
+
+![](http://7xii4m.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160621084113.png)
 
